@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="codeworld-cloud-dept" />
+        <module name="codeworld-cloud-gateway" />
+        <module name="codeworld-cloud-role" />
+        <module name="codeworld-cloud-user" />
+        <module name="codeworld-cloud-common" />
+        <module name="codeworld-cloud-menu" />
+        <module name="codeworld-cloud-parent" />
+        <module name="codeworld-cloud-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="codeworld-cloud-auth" target="11" />
+      <module name="codeworld-cloud-common" target="11" />
+      <module name="codeworld-cloud-dept" target="1.8" />
+      <module name="codeworld-cloud-dept-interface" target="11" />
+      <module name="codeworld-cloud-dept-service" target="11" />
+      <module name="codeworld-cloud-gateway" target="11" />
+      <module name="codeworld-cloud-menu" target="1.8" />
+      <module name="codeworld-cloud-menu-interface" target="11" />
+      <module name="codeworld-cloud-menu-service" target="11" />
+      <module name="codeworld-cloud-parent" target="1.8" />
+      <module name="codeworld-cloud-register" target="1.8" />
+      <module name="codeworld-cloud-role" target="1.8" />
+      <module name="codeworld-cloud-role-interface" target="11" />
+      <module name="codeworld-cloud-role-service" target="11" />
+      <module name="codeworld-cloud-user" target="1.8" />
+      <module name="codeworld-cloud-user-interface" target="1.8" />
+      <module name="codeworld-cloud-user-service" target="1.8" />
+      <module name="codeworld-cloud-web" target="11" />
+      <module name="codeworld-register" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codeworld-cloud-auth" options="-parameters" />
+      <module name="codeworld-cloud-common" options="-parameters" />
+      <module name="codeworld-cloud-dept" options="-parameters" />
+      <module name="codeworld-cloud-dept-interface" options="-parameters" />
+      <module name="codeworld-cloud-dept-service" options="-parameters" />
+      <module name="codeworld-cloud-gateway" options="-parameters" />
+      <module name="codeworld-cloud-menu" options="-parameters" />
+      <module name="codeworld-cloud-menu-interface" options="-parameters" />
+      <module name="codeworld-cloud-menu-service" options="-parameters" />
+      <module name="codeworld-cloud-parent" options="-parameters" />
+      <module name="codeworld-cloud-register" options="-parameters" />
+      <module name="codeworld-cloud-role" options="-parameters" />
+      <module name="codeworld-cloud-role-interface" options="-parameters" />
+      <module name="codeworld-cloud-role-service" options="-parameters" />
+      <module name="codeworld-cloud-user" options="-parameters" />
+      <module name="codeworld-cloud-user-interface" options="-parameters" />
+      <module name="codeworld-cloud-user-service" options="-parameters" />
+      <module name="codeworld-cloud-web" options="-parameters" />
+      <module name="codeworld-register" options="-parameters" />
+    </option>
+  </component>
+</project>

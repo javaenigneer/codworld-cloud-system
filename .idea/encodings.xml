@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-auth/src/main/java/com/codeworld/fc/auth/domain/Menu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-dept/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-dept/src/main/java/com/codeworld/fc/dept/entity/Dept.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-dept/src/main/resources/mapper/DeptMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-menu/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-menu/src/main/java/com/codeworld/fc/menu/entity/Menu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-menu/src/main/resources/mapper/MenuMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-role/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-role/src/main/java/com/codeworld/fc/role/entity/Role.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-role/src/main/resources/mapper/RoleMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-user/src/main/java/com/codeworld/fc/user/entity/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-user/src/main/resources/logback-spring.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-user/src/main/resources/mapper/UserDeptMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-user/src/main/resources/mapper/UserMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codeworld-cloud-user/src/main/resources/spy.properties" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

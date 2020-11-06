@@ -1,0 +1,543 @@
+2020-11-05 09:51:59 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 09:52:02 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 09:52:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:52:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$41737a66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:52:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:52:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:52:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 09:52:03 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 09:52:03 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 09:52:03 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 09:52:03 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 09:52:03 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4072 ms
+2020-11-05 09:52:03 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 09:52:03 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 09:52:04 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 09:52:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 09:52:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 09:52:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 09:52:05 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 09:52:05 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 09:52:05 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 09:52:08 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 09:52:08 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 09:52:11 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 09:52:11 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 09:52:11 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 09:52:11 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 09:52:15 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 09:52:15 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 23.858 seconds (JVM running for 26.462)
+2020-11-05 09:59:52 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 09:59:53 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 09:59:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:59:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$fc3c5d91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:59:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:59:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 09:59:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 09:59:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 09:59:53 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 09:59:53 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 09:59:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 09:59:53 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1227 ms
+2020-11-05 09:59:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 09:59:53 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 09:59:53 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 09:59:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 09:59:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 09:59:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 09:59:54 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 09:59:54 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 09:59:54 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 09:59:56 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 09:59:56 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 09:59:58 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 09:59:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 09:59:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 09:59:58 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 10:00:00 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 10:00:00 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 13.186 seconds (JVM running for 15.864)
+2020-11-05 10:10:40 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 10:10:40 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 10:10:40 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms
+2020-11-05 10:10:40 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 10:10:40 | 耗时 2 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 10:13:02 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 10:13:02 | 耗时 1 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 434870, 'demoData', '1692454247@qq.com', '15281223316', 1, '2020-11-05T10:13:02.188+0800', '2020-11-05T10:13:02.188+0800' );;
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 com.netflix.loadbalancer.BaseLoadBalancer Client: codeworld-cloud-role instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client codeworld-cloud-role initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[192.168.220.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.220.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@7ac43e13
+2020-11-05 10:13:02 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 10:13:02 | 耗时 0 ms | SQL 语句：
+insert into codeworld_user_dept (t_user_dept_id,t_user_id,t_dept_id,t_create_time,t_update_time) values (232751,434870,0,'2020-11-05T10:13:02.550+0800','2020-11-05T10:13:02.550+0800');;
+2020-11-05 10:13:03 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 10:13:23 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 10:13:23 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 10:13:51 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 10:13:51 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 11:46:50 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 11:46:52 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 11:46:52 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 11:46:52 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8ed94084] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 11:46:52 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 11:46:52 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 11:46:52 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 11:46:52 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 11:46:52 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 11:46:52 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 11:46:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 11:46:53 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2700 ms
+2020-11-05 11:46:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 11:46:53 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 11:46:53 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 11:46:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 11:46:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 11:46:53 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 11:46:54 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 11:46:54 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 11:46:54 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 11:46:57 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 11:46:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 11:46:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 11:46:58 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 11:46:59 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 13.483 seconds (JVM running for 16.199)
+2020-11-05 11:49:47 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 11:49:47 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 11:49:47 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 5 ms
+2020-11-05 11:49:47 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 11:49:47 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 11:50:13 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 11:50:13 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 11:51:41 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 11:51:41 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 14:14:46 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 14:14:48 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 14:14:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 14:14:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4acbeb48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 14:14:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 14:14:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 14:14:49 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 14:14:49 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 14:14:49 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 14:14:49 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 14:14:50 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 14:14:50 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4045 ms
+2020-11-05 14:14:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 14:14:50 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 14:14:50 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 14:14:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 14:14:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 14:14:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 14:14:51 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 14:14:51 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 14:14:51 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 14:14:55 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 14:14:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 14:14:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 14:14:58 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 14:15:01 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 21.914 seconds (JVM running for 24.188)
+2020-11-05 14:17:57 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 14:17:57 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 14:17:57 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 11 ms
+2020-11-05 14:17:57 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 14:17:57 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 14:18:15 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 14:18:15 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 14:18:27 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 14:18:27 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 14:18:42 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 14:18:42 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 14:24:03 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 14:24:03 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 15:39:02 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 15:39:03 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 15:39:03 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 15:39:03 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f0f53c86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 15:39:03 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 15:39:03 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 15:39:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 15:39:03 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 15:39:03 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 15:39:03 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 15:39:03 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 15:39:03 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1275 ms
+2020-11-05 15:39:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 15:39:04 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 15:39:04 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 15:39:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 15:39:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 15:39:04 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 15:39:04 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 15:39:04 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 15:39:04 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 15:39:06 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 15:39:06 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 15:39:08 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 15:39:08 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 15:39:08 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 15:39:08 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 15:39:10 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 15:39:10 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 13.457 seconds (JVM running for 16.178)
+2020-11-05 15:40:46 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 15:40:46 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 15:40:46 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 14 ms
+2020-11-05 15:40:47 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 15:40:47 | 耗时 2 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-05 15:40:54 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 15:40:54 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-05 15:41:34 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 15:41:34 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 15:41:36 INFO  http-nio-8001-exec-4 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; fine_remember_login=-1; fine_auth_token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYW5ydWFuIiwiaWF0IjoxNjA0NTQ2NzgzLCJleHAiOjE2MDQ1NTAzODMsInN1YiI6ImFkbWluIiwiZGVzY3JpcHRpb24iOiJhZG1pbihhZG1pbikiLCJqdGkiOiJab3FLWFpFWU44SGhqd1U3WHdkc01zb0hPbGd3eE5UbDRQblBIcm05a1AwRjltYisifQ.X4p65o3LHrz_j7iXoUt4Qg0bDwweU6oH64q7zBSPhKY; JSESSIONID=CAD9293FCEB45FE12BFB5F6986F45A3B; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vRGF0YSIsImV4cCI6MTYwNDYwNTI5NSwiY3JlYXRlZCI6MTYwNDU2MjA5NTUzNCwiYXV0aG9yaXRpZXMiOlt7ImF1dGhvcml0eSI6ImFjdGl2ZS11c2VyIn0seyJhdXRob3JpdHkiOiJhY3RpdmU6b2ZmbGluZSJ9LHsiYXV0aG9yaXR5IjoiY2hhdCJ9LHsiYXV0aG9yaXR5IjoiZGVwdCJ9LHsiYXV0aG9yaXR5IjoiaHR0cCJ9LHsiYXV0aG9yaXR5Ijoiam9iIn0seyJhdXRob3JpdHkiOiJqb2ItbG9nIn0seyJhdXRob3JpdHkiOiJsb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.8X60POkp0C9ugZLRJlXwleXcNld5nEaXrodw1LHjN5HTIqaJ-84_aVfz1nY2bRYU-rG1HlV7aqA_KItOtVV-3w] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-05 15:42:03 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 15:42:03 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 15:42:03 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 15:42:03 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 15:42:09 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 15:42:09 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:42:09 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 15:42:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 15:42:13 INFO  http-nio-8001-exec-9 p6spy 2020-11-05 15:42:13 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:42:13 INFO  http-nio-8001-exec-9 p6spy 2020-11-05 15:42:13 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 15:42:27 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 15:42:27 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:42:27 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 15:42:27 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 15:42:32 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 15:42:32 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:42:32 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 15:42:32 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 15:42:34 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 15:42:34 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:42:34 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 15:42:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 15:42:47 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 15:42:47 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 15:43:08 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 15:43:08 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:43:08 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 15:43:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 15:43:19 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 15:43:19 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 15:43:19 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 15:43:19 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 15:43:19 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 15:43:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:06:29 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 16:06:31 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 16:06:31 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:06:31 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a326cbb1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:06:31 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:06:31 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:06:32 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 16:06:32 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:06:32 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 16:06:32 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 16:06:32 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 16:06:32 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2722 ms
+2020-11-05 16:06:32 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 16:06:32 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 16:06:32 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 16:06:32 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 16:06:32 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 16:06:32 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 16:06:32 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:06:33 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:06:33 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 16:06:35 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:06:35 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 16:06:37 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:06:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:06:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 16:06:38 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 16:06:40 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:06:40 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 18.303 seconds (JVM running for 21.065)
+2020-11-05 16:23:11 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 16:23:11 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 16:23:11 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms
+2020-11-05 16:23:11 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:23:11 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:23:14 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:23:14 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:23:14 INFO  http-nio-8001-exec-3 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; fine_remember_login=-1; fine_auth_token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYW5ydWFuIiwiaWF0IjoxNjA0NTQ2NzgzLCJleHAiOjE2MDQ1NTAzODMsInN1YiI6ImFkbWluIiwiZGVzY3JpcHRpb24iOiJhZG1pbihhZG1pbikiLCJqdGkiOiJab3FLWFpFWU44SGhqd1U3WHdkc01zb0hPbGd3eE5UbDRQblBIcm05a1AwRjltYisifQ.X4p65o3LHrz_j7iXoUt4Qg0bDwweU6oH64q7zBSPhKY; JSESSIONID=5C253AF40B894759EF6BB68721D3CFFB; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vRGF0YSIsImV4cCI6MTYwNDYwNzc5MywiY3JlYXRlZCI6MTYwNDU2NDU5MzE1MywiYXV0aG9yaXRpZXMiOlt7ImF1dGhvcml0eSI6ImFjdGl2ZS11c2VyIn0seyJhdXRob3JpdHkiOiJhY3RpdmU6b2ZmbGluZSJ9LHsiYXV0aG9yaXR5IjoiY2hhdCJ9LHsiYXV0aG9yaXR5IjoiZGVwdCJ9LHsiYXV0aG9yaXR5IjoiaHR0cCJ9LHsiYXV0aG9yaXR5Ijoiam9iIn0seyJhdXRob3JpdHkiOiJqb2ItbG9nIn0seyJhdXRob3JpdHkiOiJsb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.ZWxvlNQPvea-VRaxN1RNIMtzJImUqnkk0wgGozSMVJ7_tOxua7-io7cz4mrDd3z0Vm6mgqJ_X5-qk0Jev4eQ2Q] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-05 16:23:18 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:23:18 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:23:18 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:23:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:25:27 INFO  http-nio-8001-exec-7 p6spy 2020-11-05 16:25:27 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:25:27 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 16:25:27 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:25:27 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 16:25:27 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:26:31 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:26:31 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:26:31 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:26:31 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:26:31 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:26:31 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:27:27 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:27:27 | 耗时 1 ms | SQL 语句：
+update codeworld_user set t_user_status = 0 where t_user_id = 434870;
+2020-11-05 16:27:29 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 16:27:29 | 耗时 1 ms | SQL 语句：
+update codeworld_user set t_user_status = 1 where t_user_id = 434870;
+2020-11-05 16:31:49 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 16:31:49 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=7212241f-a83b-33c3-8386-758c21302712
+2020-11-05 16:31:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:31:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e3fac9bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:31:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:31:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:31:50 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 16:31:50 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:31:50 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 16:31:50 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 16:31:50 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 16:31:50 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1355 ms
+2020-11-05 16:31:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 16:31:50 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 16:31:50 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 16:31:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 16:31:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 16:31:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 16:31:51 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:31:51 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:31:51 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 16:31:53 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:31:53 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 16:31:55 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:31:55 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:31:55 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 16:31:55 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 16:31:57 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:31:57 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 13.633 seconds (JVM running for 16.388)
+2020-11-05 16:32:39 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 16:32:39 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 16:32:39 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2020-11-05 16:32:39 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:32:39 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:32:40 INFO  http-nio-8001-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; fine_remember_login=-1; fine_auth_token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYW5ydWFuIiwiaWF0IjoxNjA0NTQ2NzgzLCJleHAiOjE2MDQ1NTAzODMsInN1YiI6ImFkbWluIiwiZGVzY3JpcHRpb24iOiJhZG1pbihhZG1pbikiLCJqdGkiOiJab3FLWFpFWU44SGhqd1U3WHdkc01zb0hPbGd3eE5UbDRQblBIcm05a1AwRjltYisifQ.X4p65o3LHrz_j7iXoUt4Qg0bDwweU6oH64q7zBSPhKY; JSESSIONID=5C253AF40B894759EF6BB68721D3CFFB; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vRGF0YSIsImV4cCI6MTYwNDYwNzc5MywiY3JlYXRlZCI6MTYwNDU2NDU5MzE1MywiYXV0aG9yaXRpZXMiOlt7ImF1dGhvcml0eSI6ImFjdGl2ZS11c2VyIn0seyJhdXRob3JpdHkiOiJhY3RpdmU6b2ZmbGluZSJ9LHsiYXV0aG9yaXR5IjoiY2hhdCJ9LHsiYXV0aG9yaXR5IjoiZGVwdCJ9LHsiYXV0aG9yaXR5IjoiaHR0cCJ9LHsiYXV0aG9yaXR5Ijoiam9iIn0seyJhdXRob3JpdHkiOiJqb2ItbG9nIn0seyJhdXRob3JpdHkiOiJsb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.ZWxvlNQPvea-VRaxN1RNIMtzJImUqnkk0wgGozSMVJ7_tOxua7-io7cz4mrDd3z0Vm6mgqJ_X5-qk0Jev4eQ2Q] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-05 16:32:40 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:32:40 | 耗时 1 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:32:40 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:32:40 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:32:49 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:32:49 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:32:50 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:32:50 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:32:50 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:32:50 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:32:54 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 16:32:54 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:32:54 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 16:32:54 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:32:54 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 16:32:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 com.netflix.loadbalancer.BaseLoadBalancer Client: codeworld-cloud-role instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client codeworld-cloud-role initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[192.168.220.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.220.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@58bb2b83
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 16:33:02 | 耗时 11 ms | SQL 语句：
+delete from codeworld_user_dept where t_user_id = 3284787;
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 16:33:02 | 耗时 1 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 3284787;
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:33:02 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:33:02 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:33:02 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:33:03 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 16:33:04 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:33:04 | 耗时 0 ms | SQL 语句：
+delete from codeworld_user_dept where t_user_id = 1757779;
+2020-11-05 16:33:04 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:33:04 | 耗时 10 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 1757779;
+2020-11-05 16:33:04 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 16:33:04 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:33:04 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 16:33:04 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:33:06 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:33:06 | 耗时 0 ms | SQL 语句：
+delete from codeworld_user_dept where t_user_id = 4810056;
+2020-11-05 16:33:06 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:33:06 | 耗时 12 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 4810056;
+2020-11-05 16:33:06 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:33:06 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:33:06 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:33:06 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:33:20 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 16:33:20 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:33:21 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 16:33:21 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:33:21 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 16:33:21 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:40:15 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:40:15 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:40:15 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 16:40:15 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:40:15 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 16:40:15 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:40:18 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:40:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:40:19 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:40:19 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:40:19 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:40:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:42:00 INFO  http-nio-8001-exec-9 p6spy 2020-11-05 16:42:00 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:42:01 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 16:42:01 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:42:01 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 16:42:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:48:12 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 16:48:13 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=5ddf75ba-f855-3124-9b02-0c7e8670b884
+2020-11-05 16:48:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:48:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$fc3c5d91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:48:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:48:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:48:13 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 16:48:13 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:48:13 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 16:48:13 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 16:48:13 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 16:48:13 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1412 ms
+2020-11-05 16:48:13 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 16:48:14 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 16:48:14 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 16:48:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 16:48:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 16:48:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 16:48:14 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:48:14 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:48:14 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 16:48:16 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:48:16 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 16:48:18 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:48:18 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:48:18 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 16:48:18 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 16:48:20 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:48:20 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 14.007 seconds (JVM running for 16.561)
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:48:44 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; fine_remember_login=-1; fine_auth_token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYW5ydWFuIiwiaWF0IjoxNjA0NTQ2NzgzLCJleHAiOjE2MDQ1NTAzODMsInN1YiI6ImFkbWluIiwiZGVzY3JpcHRpb24iOiJhZG1pbihhZG1pbikiLCJqdGkiOiJab3FLWFpFWU44SGhqd1U3WHdkc01zb0hPbGd3eE5UbDRQblBIcm05a1AwRjltYisifQ.X4p65o3LHrz_j7iXoUt4Qg0bDwweU6oH64q7zBSPhKY; JSESSIONID=5C253AF40B894759EF6BB68721D3CFFB; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vRGF0YSIsImV4cCI6MTYwNDYwNzc5MywiY3JlYXRlZCI6MTYwNDU2NDU5MzE1MywiYXV0aG9yaXRpZXMiOlt7ImF1dGhvcml0eSI6ImFjdGl2ZS11c2VyIn0seyJhdXRob3JpdHkiOiJhY3RpdmU6b2ZmbGluZSJ9LHsiYXV0aG9yaXR5IjoiY2hhdCJ9LHsiYXV0aG9yaXR5IjoiZGVwdCJ9LHsiYXV0aG9yaXR5IjoiaHR0cCJ9LHsiYXV0aG9yaXR5Ijoiam9iIn0seyJhdXRob3JpdHkiOiJqb2ItbG9nIn0seyJhdXRob3JpdHkiOiJsb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.ZWxvlNQPvea-VRaxN1RNIMtzJImUqnkk0wgGozSMVJ7_tOxua7-io7cz4mrDd3z0Vm6mgqJ_X5-qk0Jev4eQ2Q] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:48:44 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:48:44 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:48:44 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:48:46 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 16:48:46 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user_dept where t_user_id = 434870;
+2020-11-05 16:58:53 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-05 16:58:54 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=5ddf75ba-f855-3124-9b02-0c7e8670b884
+2020-11-05 16:58:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:58:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c6c4884d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:58:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:58:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-05 16:58:54 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-05 16:58:54 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:58:54 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-05 16:58:54 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 16:58:54 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-05 16:58:54 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1558 ms
+2020-11-05 16:58:54 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-05 16:58:54 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-05 16:58:55 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-05 16:58:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-05 16:58:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-05 16:58:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-05 16:58:55 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:58:55 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-05 16:58:55 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 16:58:57 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:58:57 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-05 16:58:59 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:58:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-05 16:58:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-05 16:58:59 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-05 16:59:01 INFO  main org.springframework.cloud.commons.util.InetUtils Cannot determine local hostname
+2020-11-05 16:59:01 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 13.965 seconds (JVM running for 16.748)
+2020-11-05 16:59:21 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 16:59:21 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-05 16:59:22 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2020-11-05 16:59:22 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 16:59:22 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 16:59:22 INFO  http-nio-8001-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; fine_remember_login=-1; fine_auth_token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYW5ydWFuIiwiaWF0IjoxNjA0NTQ2NzgzLCJleHAiOjE2MDQ1NTAzODMsInN1YiI6ImFkbWluIiwiZGVzY3JpcHRpb24iOiJhZG1pbihhZG1pbikiLCJqdGkiOiJab3FLWFpFWU44SGhqd1U3WHdkc01zb0hPbGd3eE5UbDRQblBIcm05a1AwRjltYisifQ.X4p65o3LHrz_j7iXoUt4Qg0bDwweU6oH64q7zBSPhKY; JSESSIONID=5C253AF40B894759EF6BB68721D3CFFB; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vRGF0YSIsImV4cCI6MTYwNDYwNzc5MywiY3JlYXRlZCI6MTYwNDU2NDU5MzE1MywiYXV0aG9yaXRpZXMiOlt7ImF1dGhvcml0eSI6ImFjdGl2ZS11c2VyIn0seyJhdXRob3JpdHkiOiJhY3RpdmU6b2ZmbGluZSJ9LHsiYXV0aG9yaXR5IjoiY2hhdCJ9LHsiYXV0aG9yaXR5IjoiZGVwdCJ9LHsiYXV0aG9yaXR5IjoiaHR0cCJ9LHsiYXV0aG9yaXR5Ijoiam9iIn0seyJhdXRob3JpdHkiOiJqb2ItbG9nIn0seyJhdXRob3JpdHkiOiJsb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.ZWxvlNQPvea-VRaxN1RNIMtzJImUqnkk0wgGozSMVJ7_tOxua7-io7cz4mrDd3z0Vm6mgqJ_X5-qk0Jev4eQ2Q] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-05 16:59:22 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:59:22 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:59:22 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 16:59:22 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:59:24 INFO  http-nio-8001-exec-3 p6spy 2020-11-05 16:59:24 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user_dept where t_user_id = 434870;
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:59:35 | 耗时 0 ms | SQL 语句：
+update codeworld_user set t_user_name = 'demoData', t_user_email = '1692454247@qq.com', t_user_phone = '15281223316', t_user_status = 1, t_update_time = '2020-11-05T16:59:35.248+0800' where t_user_id = 434870;
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 com.netflix.loadbalancer.BaseLoadBalancer Client: codeworld-cloud-role instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client codeworld-cloud-role initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[192.168.220.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.220.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@24c9d15d
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:59:35 | 耗时 0 ms | SQL 语句：
+delete from codeworld_user_dept where t_user_id = 434870;
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 16:59:35 | 耗时 0 ms | SQL 语句：
+insert into codeworld_user_dept (t_user_dept_id,t_user_id,t_dept_id,t_create_time,t_update_time) values (246857,434870,2,'2020-11-05T16:59:35.665+0800','2020-11-05T16:59:35.665+0800');;
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:59:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:59:35 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 16:59:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 16:59:36 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-05 16:59:59 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 16:59:59 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 16:59:59 INFO  http-nio-8001-exec-6 p6spy 2020-11-05 16:59:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 17:00:18 INFO  http-nio-8001-exec-7 p6spy 2020-11-05 17:00:18 | 耗时 12 ms | SQL 语句：
+update codeworld_user set t_user_status = 0 where t_user_id = 434870;
+2020-11-05 17:00:25 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 17:00:25 | 耗时 1 ms | SQL 语句：
+update codeworld_user set t_user_status = 1 where t_user_id = 434870;
+2020-11-05 17:00:32 INFO  http-nio-8001-exec-9 p6spy 2020-11-05 17:00:32 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user WHERE t_user_status = 0;
+2020-11-05 17:00:34 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 17:00:34 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user WHERE t_user_status = 1;
+2020-11-05 17:00:34 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 17:00:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user WHERE t_user_status = 1 order by t_create_time DESC LIMIT 10 ;
+2020-11-05 17:01:12 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 17:01:12 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'code';
+2020-11-05 17:01:12 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 17:01:12 | 耗时 0 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 722708, 'code', '1692454247@qq.com', '15281223316', 1, '2020-11-05T17:01:12.507+0800', '2020-11-05T17:01:12.507+0800' );;
+2020-11-05 17:01:12 INFO  http-nio-8001-exec-1 p6spy 2020-11-05 17:01:12 | 耗时 0 ms | SQL 语句：
+insert into codeworld_user_dept (t_user_dept_id,t_user_id,t_dept_id,t_create_time,t_update_time) values (434744,722708,1,'2020-11-05T17:01:12.522+0800','2020-11-05T17:01:12.522+0800');;
+2020-11-05 17:01:12 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 17:01:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user WHERE t_user_status = 1;
+2020-11-05 17:01:12 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 17:01:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user WHERE t_user_status = 1 order by t_create_time DESC LIMIT 10 ;
+2020-11-05 17:01:21 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 17:01:21 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:01:21 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 17:01:21 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-05 17:01:21 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 17:01:21 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-05 17:04:51 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 17:04:51 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:07:17 INFO  http-nio-8001-exec-10 p6spy 2020-11-05 17:07:17 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:32:08 INFO  http-nio-8001-exec-2 p6spy 2020-11-05 17:32:08 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:34:19 INFO  http-nio-8001-exec-4 p6spy 2020-11-05 17:34:19 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:35:15 INFO  http-nio-8001-exec-5 p6spy 2020-11-05 17:35:15 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:38:28 INFO  http-nio-8001-exec-7 p6spy 2020-11-05 17:38:28 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';
+2020-11-05 17:38:36 INFO  http-nio-8001-exec-8 p6spy 2020-11-05 17:38:36 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'demoData';

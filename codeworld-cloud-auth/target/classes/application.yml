@@ -1,0 +1,11 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: codeworld-cloud-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        register-enabled: true
+        weight: 1

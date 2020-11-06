@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-auth/codeworld-cloud-auth.iml" filepath="$PROJECT_DIR$/codeworld-cloud-auth/codeworld-cloud-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-common/codeworld-cloud-common.iml" filepath="$PROJECT_DIR$/codeworld-cloud-common/codeworld-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-dept/codeworld-cloud-dept.iml" filepath="$PROJECT_DIR$/codeworld-cloud-dept/codeworld-cloud-dept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-gateway/codeworld-cloud-gateway.iml" filepath="$PROJECT_DIR$/codeworld-cloud-gateway/codeworld-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-menu/codeworld-cloud-menu.iml" filepath="$PROJECT_DIR$/codeworld-cloud-menu/codeworld-cloud-menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-parent/codeworld-cloud-parent.iml" filepath="$PROJECT_DIR$/codeworld-cloud-parent/codeworld-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-role/codeworld-cloud-role.iml" filepath="$PROJECT_DIR$/codeworld-cloud-role/codeworld-cloud-role.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-cloud-user/codeworld-cloud-user.iml" filepath="$PROJECT_DIR$/codeworld-cloud-user/codeworld-cloud-user.iml" />
+    </modules>
+  </component>
+</project>

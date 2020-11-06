@@ -1,0 +1,254 @@
+2020-11-06 09:09:48 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-06 09:09:50 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=5ddf75ba-f855-3124-9b02-0c7e8670b884
+2020-11-06 09:09:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 09:09:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$948269c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 09:09:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 09:09:50 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 09:09:51 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-06 09:09:51 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-06 09:09:51 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-06 09:09:51 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-06 09:09:51 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-06 09:09:51 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3436 ms
+2020-11-06 09:09:51 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource ¶¯Ì¬Êý¾ÝÔ´-¼ì²âµ½²¢¿ªÆôÁËp6spy
+2020-11-06 09:09:51 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-06 09:09:52 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-06 09:09:52 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource ³õÊ¼¹²¼ÓÔØ 1 ¸öÊý¾ÝÔ´
+2020-11-06 09:09:52 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource ¶¯Ì¬Êý¾ÝÔ´-¼ÓÔØ base ³É¹¦
+2020-11-06 09:09:52 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource µ±Ç°µÄÄ¬ÈÏÊý¾ÝÔ´ÊÇµ¥Êý¾ÝÔ´£¬Êý¾ÝÔ´ÃûÎª base
+2020-11-06 09:09:53 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-06 09:09:53 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-06 09:09:53 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 09:09:56 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-06 09:09:57 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-06 09:09:57 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-06 09:09:57 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-06 09:09:59 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 17.054 seconds (JVM running for 20.457)
+2020-11-06 09:12:10 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 09:12:10 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-06 09:12:10 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms
+2020-11-06 09:12:10 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 09:12:10 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 09:12:12 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 09:12:12 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 09:12:13 INFO  http-nio-8001-exec-3 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; JSESSIONID=C6576F7E22DCDF70B0B0E5A91B719671; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA0NjY4MzMxLCJjcmVhdGVkIjoxNjA0NjI1MTMxODE0LCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nIn0seyJhdXRob3JpdHkiOiJsb2dpbi1sb2c6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51In0seyJhdXRob3JpdHkiOiJtZW51OmFkZCJ9LHsiYXV0aG9yaXR5IjoibWVudTpkZWxldGUifSx7ImF1dGhvcml0eSI6Im1lbnU6ZWRpdCJ9LHsiYXV0aG9yaXR5Ijoicm9sZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTphZGQifSx7ImF1dGhvcml0eSI6InJvbGU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJyb2xlOmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGVTZXR0aW5nIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1Kb2IifSx7ImF1dGhvcml0eSI6InN5c3RlbU1hbmFnZSJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtTW9uaXRvciJ9LHsiYXV0aG9yaXR5IjoidXNlciJ9LHsiYXV0aG9yaXR5IjoidXNlcjphZGQifSx7ImF1dGhvcml0eSI6InVzZXI6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJ1c2VyOmVkaXQifSx7ImF1dGhvcml0eSI6InVzZXI6ZW5hYmxlIn1dfQ.w0tL-dhilq4XT2-kEswVz9dsuiIgCAACBmrAe49vStpWVKShiy7jgkLX_pKJM9BUIt-jY78Mz6axfqgWAtOZkQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-06 09:12:16 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 09:12:16 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 09:12:16 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 09:12:16 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-06 09:12:48 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 09:12:48 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 09:12:48 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 09:12:48 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-06 09:12:49 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 09:12:49 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select * from codeworld_user_dept where t_user_id = 722708;
+2020-11-06 09:15:05 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 09:15:05 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 09:19:18 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 09:19:18 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 09:20:23 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 09:20:23 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 09:20:23 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 09:20:23 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-06 09:21:01 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 09:21:01 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = 'FC';
+2020-11-06 09:21:01 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 09:21:01 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 714564, 'FC', '1692454247@qq.com', '15281223316', 1, '2020-11-06T09:21:01.881+0800', '2020-11-06T09:21:01.881+0800' );;
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-4 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-4 com.netflix.loadbalancer.BaseLoadBalancer Client: codeworld-cloud-role instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-4 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-4 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-4 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client codeworld-cloud-role initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=codeworld-cloud-role,current list of Servers=[192.168.220.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.220.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@d0cae13
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 09:21:02 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+insert into codeworld_user_dept (t_user_dept_id,t_user_id,t_dept_id,t_create_time,t_update_time) values (512391,714564,2,'2020-11-06T09:21:02.190+0800','2020-11-06T09:21:02.190+0800');;
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 09:21:02 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 09:21:02 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 09:21:02 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-06 09:21:03 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: codeworld-cloud-role.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-11-06 09:40:46 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 09:40:46 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 09:41:41 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 09:41:41 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 10:05:59 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 10:05:59 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:18:42 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:18:42 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:18:43 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:18:43 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:23:19 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:23:19 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:28:17 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication No active profile set, falling back to default profiles: default
+2020-11-06 11:28:18 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=5ddf75ba-f855-3124-9b02-0c7e8670b884
+2020-11-06 11:28:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 11:28:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a8c1ba80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 11:28:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 11:28:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-06 11:28:18 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-11-06 11:28:18 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-06 11:28:18 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-06 11:28:18 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-06 11:28:19 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-06 11:28:19 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1446 ms
+2020-11-06 11:28:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource ¶¯Ì¬Êý¾ÝÔ´-¼ì²âµ½²¢¿ªÆôÁËp6spy
+2020-11-06 11:28:19 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-06 11:28:19 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-06 11:28:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource ³õÊ¼¹²¼ÓÔØ 1 ¸öÊý¾ÝÔ´
+2020-11-06 11:28:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource ¶¯Ì¬Êý¾ÝÔ´-¼ÓÔØ base ³É¹¦
+2020-11-06 11:28:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource µ±Ç°µÄÄ¬ÈÏÊý¾ÝÔ´ÊÇµ¥Êý¾ÝÔ´£¬Êý¾ÝÔ´ÃûÎª base
+2020-11-06 11:28:19 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-06 11:28:19 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-06 11:28:19 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 11:28:20 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-11-06 11:28:21 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-11-06 11:28:21 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-06 11:28:21 INFO  main org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry nacos registry, codeworld-cloud-user 192.168.220.1:8001 register finished
+2020-11-06 11:28:22 INFO  main com.codeworld.fc.user.CodeworldCloudUserApplication Started CodeworldCloudUserApplication in 9.245 seconds (JVM running for 11.653)
+2020-11-06 11:28:31 INFO  http-nio-8001-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 11:28:31 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-06 11:28:31 INFO  http-nio-8001-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms
+2020-11-06 11:28:31 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:28:31 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:28:33 INFO  http-nio-8001-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; CNZZDATA30088308=cnzz_eid%3D427694774-1603869332-%26ntime%3D1603869332; JSESSIONID=6339991A88C57EED76A5E945D098085A; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA0Njc1OTIyLCJjcmVhdGVkIjoxNjA0NjMyNzIyOTgyLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nIn0seyJhdXRob3JpdHkiOiJsb2dpbi1sb2c6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51In0seyJhdXRob3JpdHkiOiJtZW51OmFkZCJ9LHsiYXV0aG9yaXR5IjoibWVudTpkZWxldGUifSx7ImF1dGhvcml0eSI6Im1lbnU6ZWRpdCJ9LHsiYXV0aG9yaXR5Ijoicm9sZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTphZGQifSx7ImF1dGhvcml0eSI6InJvbGU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJyb2xlOmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGVTZXR0aW5nIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1Kb2IifSx7ImF1dGhvcml0eSI6InN5c3RlbU1hbmFnZSJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtTW9uaXRvciJ9LHsiYXV0aG9yaXR5IjoidXNlciJ9LHsiYXV0aG9yaXR5IjoidXNlcjphZGQifSx7ImF1dGhvcml0eSI6InVzZXI6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJ1c2VyOmVkaXQifSx7ImF1dGhvcml0eSI6InVzZXI6ZW5hYmxlIn1dfQ.R0-t6gTjijAZTMwfW5HsNi3SldtwGUFmHyQnuY5sjUKMffI1apS_ZNrMFaO05au6ktrkGrb_wiB0Ye_AB1vb6w] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-06 11:28:33 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:28:33 | ºÄÊ± 11 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:29:01 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:29:01 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:35:23 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 11:35:23 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:36:14 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:36:14 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:36:19 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 11:36:19 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:37:01 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 11:37:01 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:37:11 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 11:37:11 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:37:47 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:37:47 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:37:49 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:37:49 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 11:37:49 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:37:49 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-06 11:38:18 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:38:18 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:38:39 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:38:39 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:38:41 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:38:41 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:38:41 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 11:38:41 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:38:42 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:38:42 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 731841 order by cu.t_create_time DESC;
+2020-11-06 11:40:11 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 11:40:11 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:40:27 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:40:27 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:41:00 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:41:00 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:41:08 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:41:08 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:41:28 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:41:28 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:41:57 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:41:57 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:42:10 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 11:42:10 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:42:21 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:42:21 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:42:23 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 11:42:23 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:25 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 11:42:25 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:42:25 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 11:42:25 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:42:26 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:42:26 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 295974 order by cu.t_create_time DESC;
+2020-11-06 11:42:27 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:42:27 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 731841 order by cu.t_create_time DESC;
+2020-11-06 11:42:29 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:42:29 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:31 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:42:31 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:37 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:42:37 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 295974 order by cu.t_create_time DESC;
+2020-11-06 11:42:39 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 11:42:39 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:42:40 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:42:40 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:42 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 11:42:42 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:44 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 11:42:44 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:45 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 11:42:45 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:46 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:42:46 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:42:48 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:42:48 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:42:50 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:42:50 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 295974 order by cu.t_create_time DESC;
+2020-11-06 11:42:51 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:42:51 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 731841 order by cu.t_create_time DESC;
+2020-11-06 11:47:22 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:47:22 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:47:27 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 11:47:27 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:47:32 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 11:47:32 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:47:47 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 11:47:47 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:47:47 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:47:47 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:47:48 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:47:48 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:47:49 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:47:49 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:48:15 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:48:15 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:48:16 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:48:16 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:48:20 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 11:48:20 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:48:20 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:48:20 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:48:20 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 11:48:20 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-06 11:48:21 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 11:48:21 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:48:22 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:48:22 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-06 11:48:50 INFO  http-nio-8001-exec-2 p6spy 2020-11-06 11:48:50 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 295974 order by cu.t_create_time DESC;
+2020-11-06 11:48:51 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:48:51 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 731841 order by cu.t_create_time DESC;
+2020-11-06 11:48:51 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:48:51 | ºÄÊ± 1 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 295974 order by cu.t_create_time DESC;
+2020-11-06 11:48:52 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:48:52 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 295974 order by cu.t_create_time DESC;
+2020-11-06 11:48:55 INFO  http-nio-8001-exec-4 p6spy 2020-11-06 11:48:55 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 731841 order by cu.t_create_time DESC;
+2020-11-06 11:48:56 INFO  http-nio-8001-exec-7 p6spy 2020-11-06 11:48:56 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:48:58 INFO  http-nio-8001-exec-8 p6spy 2020-11-06 11:48:58 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-06 11:49:13 INFO  http-nio-8001-exec-9 p6spy 2020-11-06 11:49:13 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 603358 order by cu.t_create_time DESC;
+2020-11-06 11:49:27 INFO  http-nio-8001-exec-10 p6spy 2020-11-06 11:49:27 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 34763 order by cu.t_create_time DESC;
+2020-11-06 11:49:28 INFO  http-nio-8001-exec-1 p6spy 2020-11-06 11:49:28 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 603358 order by cu.t_create_time DESC;
+2020-11-06 11:50:41 INFO  http-nio-8001-exec-3 p6spy 2020-11-06 11:50:41 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-06 11:50:48 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:50:48 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 11:50:48 INFO  http-nio-8001-exec-5 p6spy 2020-11-06 11:50:48 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-06 11:50:55 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:50:55 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+SELECT count(0) FROM codeworld_user;
+2020-11-06 11:50:55 INFO  http-nio-8001-exec-6 p6spy 2020-11-06 11:50:55 | ºÄÊ± 0 ms | SQL Óï¾ä£º
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;

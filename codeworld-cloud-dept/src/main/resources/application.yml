@@ -1,0 +1,18 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: codeworld-cloud-dept
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/codeworld-vue-system?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+    username: root
+    password: root
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        weight: 1
+        register-enabled: true
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

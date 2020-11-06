@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/codeworld-register/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-register/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-user/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-user/codeworld-cloud-user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-user/codeworld-cloud-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-web/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-menu/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-menu/codeworld-cloud-menu-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-menu/codeworld-cloud-menu-service/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-role/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-role/codeworld-cloud-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-role/codeworld-cloud-role-service/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-dept/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-dept/codeworld-cloud-dept-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-dept/codeworld-cloud-dept-service/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-cloud-auth/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="12" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
