@@ -50,6 +50,37 @@
 ​```
 ```
 
+#### 项目启动
+
+1. 下载windows的nacos
+2. 启动服务(备注里面的服务列表)
+
 #### 项目截图
 
+nacos服务注册中心
+
+![nacos注册中心](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/nacos.png)
+
 登录页面
+
+![登录页面](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/login.png)
+
+首页
+
+![首页](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/index.png)
+
+用户管理
+
+![用户管理](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/user.png)
+
+角色管理
+
+![角色管理](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/role.png)
+
+菜单管理
+
+![菜单管理](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/menu.png)
+
+部门管理
+
+![部门管理](https://codeworld-cloud-system-1300450814.cos.ap-chengdu.myqcloud.com/dept.png)
